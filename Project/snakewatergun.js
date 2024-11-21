@@ -1,7 +1,7 @@
 // snake water gun
 
 let com = Math.floor(Math.random() * 3);
-com = Number.parseInt(com)
+com = Number.parseInt(com);
 
 let obj = {
     0 : "snake" ,
@@ -9,9 +9,9 @@ let obj = {
     2 : "gun" ,
 }
 
-console.log("Enter \n '0' for snake \n '1' for water \n '2' for gun  ")
+console.log("Enter \n '0' for snake \n '1' for water \n '2' for gun  ");
 let user = prompt("Enter a number : ");
-user = Number.parseInt(user)
+user = Number.parseInt(user);
 
 if (com == 0 && user == 1){
     console.log(`You selected ${obj[user]} and computer selected ${obj[com]}`)
