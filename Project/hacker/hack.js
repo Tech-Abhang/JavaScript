@@ -1,9 +1,9 @@
-const usernameinput = document.getElementById("username")
+const usernameinput = document.getElementById("username") 
 const but = document.getElementById("hack-btn")
 but.addEventListener("click",()=>{
-    const username = usernameinput.value;
+    const username = usernameinput.value; //getting uername through input search
 
-    const sleep = async (sec) =>{
+    const sleep = async (sec) =>{  //sleep function to run code after fixed time
         return new Promise((resolve,reject) =>{
             setTimeout(()=>{
                 resolve(true)
@@ -11,14 +11,14 @@ but.addEventListener("click",()=>{
         })
     }
 
-    const showhack = async (messege) =>{
+    const showhack = async (message) =>{   //function to print text in html after every fixed time 
         await sleep(2)
-        console.log(messege)
-        text.innerHTML= text.innerHTML + messege + "<br>"
+        console.log(message)
+        text.innerHTML= text.innerHTML + message + "<br>"
     }
     
 
-    (async () =>{
+    (async () =>{                                  //to change sentence and gie it as message to showhack function
         for (let i=0 ; i<8 ; i++){
 
             if (i==0){
