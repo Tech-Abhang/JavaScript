@@ -34,7 +34,7 @@ let p = () =>{
 })
 }
 
-let a = async () =>{
+let b = async () =>{
     try{
         let c = await p()
         console.log(c)
@@ -77,11 +77,11 @@ const run = async () =>{
     let a3 = await p3()  // we wait till a1 is done for a2 , same for a3
     console.timeEnd("run")
 
-    let a1 = p1()
-    let a2 = p2()
-    let a3 = p3()
-    let a1a2a3 = await Promise.all([a1,a2,a3]) //we do simultaneously
-    console.log(a1a2a3)
+    let a4 = p1()
+    let a5 = p2()
+    let a6 = p3()
+    let a4a5a6 = await Promise.all([a1,a2,a3]) //we do simultaneously
+    console.log(a4a5a6)
     console.timeEnd("run")
 
 }
