@@ -71,6 +71,7 @@ let p3 = async () =>{
 }
 
 const run = async () =>{
+    console.time()
     let a1 = await p1()
     let a2 = await p2()
     let a3 = await p3()  // we wait till a1 is done for a2 , same for a3
