@@ -1,0 +1,45 @@
+body{
+    background: white;
+    color: #00ff00;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("matrixrain.jpg");
+    background-size: cover;
+}
+#container{
+    height: 400px;
+    width: 500px;
+    background-color:black;
+    position: absolute;
+    left:31.5%;
+    top:10%;
+    border-radius: 5px;
+    border:solid 1px #00ff00;
+}
+h2{
+    text-align: center;
+}
+#text{
+    position: absolute;
+    top: 25%;
+    left: 2%;
+}
+#hack-btn{
+    position:absolute;
+    bottom: 2%;
+    left: 45%;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: #00ff00;
+}
+
+#username{
+    width: 94.5%;
+    border: solid #00ff00 3px;
+    position: absolute;
+    left: 2%;
+    border-radius: 10px;
+    background-color: black;
+    color:red;
+}
