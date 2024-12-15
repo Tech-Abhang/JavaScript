@@ -1,4 +1,4 @@
-//Basics of js
+//Basics of js.
 
 // create variable and add Number
 
