@@ -1,0 +1,34 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url("pic2.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+#time{
+    color: white;
+    font-size: 5rem;
+    margin: 30px 0px;
+    font-weight: 700;
+}
+
+#date{
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    
+}
+
+.container{
+    width: 600px; 
+    padding: 50px 50px;
+
+}
